@@ -1,0 +1,48 @@
+html,body  {
+	margin: 0;
+	padding: 0;
+}
+#ZgornjaPasica {
+	background-color: cyan;
+	height: 100px;
+	width: 950px;
+}
+#GlavniOkvir {
+	background-color: white;
+	margin: 0 auto 0 auto;
+	width: 950px;
+}
+#Glava {
+	background-color: orange;
+	height: 200px;
+	width: 950px;
+}
+#Navigacija {
+	background-color: yellow;
+	height: 30px;
+	width: 950px;
+}
+#Vsebina {
+	background-color: magenta;
+	min-height: 350px;
+	width: 950px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;                                                                                                                               
+}             
+#Clanek {
+	background-color: red;
+	min-height: 350px;
+	width: 700px;
+}
+#Sorodno {
+	background-color: pink;
+	min-height: 350px;
+	width: 250px;
+}
+#Noga {
+	background-color: violet;
+	height: 50px;
+	width: 950px;
+}
