@@ -1,43 +1,91 @@
-html,body  {
+html,body{
 	margin: 0;
-	padding: 0;
+    padding: 0;
 }
-#ZgornjaPasica {
-	background-color: cyan;
+
+#ZgornjaPasica{
 	height: 100px;
 	width: 950px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: flex-end;
+
 }
+
+.Logo{
+   margin-left: 20px;
+}
+
+#FacebookTwitter{
+   margin-right: 20;
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: row;
+   justify-content: flex-end;   
+}
+
+#FacebookTwitter a {
+	margin-top: 15px;
+	margin-left: 1px;
+}
+
+#FacebookTwitter p{
+	font-size: 14px;
+}
+
 #GlavniOkvir {
-	background-color: white;
-	margin: 0 auto 0 auto;
-	width: 950px;
+	 margin: 0 auto 0 auto;
+	 width: 950px;
 }
+
 #Glava {
-	background-color: orange;
+	background-image: url('./Grafika/glava.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
 	height: 200px;
 	width: 950px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
+
 #Navigacija {
-	background-color: yellow;
+	background: transparent url('./Grafika/navigacija.png') no-repeat center top;
+	background-size: cover;
 	height: 30px;
 	width: 950px;
 }
+#Navigacija ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	justify-content: flex-start;
+	align-items: center;
+	list-style: none;
+	height: 30px;
+}
+#Navigacija li{
+	
+}
 #Vsebina {
-	background-color: magenta;
+	background-color: green;
 	min-height: 350px;
 	width: 950px;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: nowrap;
 	justify-content: space-between;
-	align-items: flex-start;                                                                                                                               
-}             
+	align-items:flex-start;
+}
 #Clanek {
 	background-color: red;
 	min-height: 350px;
 	width: 700px;
 }
 #Sorodno {
-	background-color: pink;
+	background-color: orange;
 	min-height: 350px;
 	width: 250px;
 }
@@ -45,4 +93,5 @@ html,body  {
 	background-color: violet;
 	height: 50px;
 	width: 950px;
-}
+}	
+
