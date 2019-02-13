@@ -7,8 +7,11 @@
 		<meta name="keywords" content="splet,html,css,animare">
 		<meta name="author" content="Matevž Bitenc">
 		<meta name="robots" content="index,follow">
-
+		
 		<link rel="stylesheet" href="slogi.css">
+		<link rel="stylesheet" type="text/css" href="./css/prettyPhoto.css">
+		<script type="text/javascript" src="./js/jquery-1.6.1.min.js"></script>
+		<script type="text/javascript" src="./js/jquery.prettyPhoto.js"></script>
 	</head>
 	<body>
 		<div id="GlavniOkvir">
@@ -39,12 +42,29 @@
 			</nav>
 			<section id="Vsebina">
 				<article id="Clanek">
+				<a href="Grafika/Naprava_L.jpg" rel="prettyPhoto{Vertiljak}" title="Naprava">
 					<img src="./Grafika/Naprava.jpg" alt="Z napravo lahko ustvarimo iluzijo gibanja." class="SlikaVClanku">
+				<a href="Grafika/Posoda_L.jpg" rel="prettyPhoto{Vertiljak}" title="Posoda" target="_blank">
+				
+				<a href="Grafika/Zaba_L.jpg" rel="prettyPhoto{Vertiljak}" title="Zaba">
 					<img src="./Grafika/Posoda.jpg" alt="Z napravo lahko ustvarimo iluzijo gibanja." class="SlikaVClanku">
+				<a href="Grafika/Zaba_L.jpg" rel="prettyPhoto{Vertiljak}" title="Zaba" target="_blank">
+				
+				<a href="Grafika/Animacija.jpg" rel="prettyPhoto{Vertiljak}" title="Animacija">
 					<img src="./Grafika/Zaba.jpg" alt="Z napravo lahko ustvarimo iluzijo gibanja." class="SlikaVClanku">
+				<a href="Grafika/Animacija.jpg" rel="prettyPhoto{Vertiljak}" title="Animacija" target="_blank">	
+					
+				<a href="Grafika/FestivalVetrnica.jpg" rel="prettyPhoto{Vertiljak}" title="Vetrnica">
 					<img src="./Grafika/Animacija.jpg" alt="Z napravo lahko ustvarimo iluzijo gibanja." class="SlikaVClanku">
+				<a href="Grafika/FestivalVetrnica.jpg" rel="prettyPhoto{Vertiljak}" title="Vetrnica" target="_blank">	
+					
+				<a href="Grafika/Naprava_L.jpg" rel="prettyPhoto{Vertiljak}" title="Naprava">
 					<img src="./Grafika/FestivalVetrnica.jpg" alt="Z napravo lahko ustvarimo iluzijo gibanja." class="SlikaVClanku">
+				<a href="Grafika/Posoda_L.jpg" rel="prettyPhoto{Vertiljak}" title="Posoda" target="_blank">	
+					
+				<a href="https://www.youtube.com/watch?v=OXSZKRIJWdg" rel="prettyPhoto{Vertiljak}" title="Pikselacija">
 					<img src="./Grafika/Pikselacija.jpg" alt="Z napravo lahko ustvarimo iluzijo gibanja." class="SlikaVClanku">
+				<a href="Pikselacija.jpg" rel="prettyPhoto{Vertiljak}" title="Pikselacija" target="_blank">
 				</article>
 				<aside id="Sorodno">
 					
@@ -54,5 +74,10 @@
 				Društvo iluzije gibanja | Pingvinova 14, Ljubljana | <a href="http://www.animare.si" target="_blank">www.animare.si</a>
 			</footer>
 		</div>
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+	</script>
 	</body>
 </html>
